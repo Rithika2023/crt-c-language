@@ -1,0 +1,32 @@
+ print numbers from n-1;
+#include<stdio.h>
+void fun(int n)
+{
+if(n>=1)
+{
+  printf("%d",n);
+  fun(n-1);
+}
+}
+int main()
+{
+int n;
+scanf("%d",&n);
+}
+head recursion:when the recursive call is first statement in the function is called is called head recursive function;
+print numbers from 1-n;
+#include<stdio.h>
+void fun(int n)
+{
+  if(1<=n)
+  {
+    printf("%d",&n);
+    fun(n);
+  }
+}
+int main()
+{
+  int n;
+  scanf("%d",&n);
+}
+
